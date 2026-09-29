@@ -1,0 +1,16 @@
+{
+  "LAB_HANDOUT.md": "6df56123630ffc61c85e92f28fe1d0431d5ff46a5feffde52b2984ba71775515",
+  "Quantum_Evidence_Walkthrough.ipynb": "6f73fb00893cccd1cd5dd13043a0cbee5707f80bec77d3844664f7878fbd8c90",
+  "README.md": "23ee9f585f01644604515c4abfdb4abc76a9fb4954d09ab172f01facf30b2b24",
+  "RESEARCH_BLUEPRINT.md": "9f0ae8ad293b8c0fc302dbee6b328400a678d51798b41323f5f412ad71218fa3",
+  "STUDY_PROTOCOL.md": "53f1d16fb8c2fddd308211751a050704e86709bd87e9527bc4d03be9cec2397d",
+  "experiment.py": "da1ec2fe68179404b19ee196f1df7f155c68c68baf0a6764d06f5d990c1f8f1e",
+  "qiskit_example.py": "cfaa3c8da55a391afbe717cedf19eb862f30f1b7d4a160d2675c4d5f0006f911",
+  "requirements-qiskit.txt": "b17818c0cc41337de459d7f727fcf86546732d8815de5c66ddc8dcce72df046f",
+  "requirements.txt": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3",
+  "results/observations.csv": "aa5cdd8fe28c87df039f14fe2237809b55b1267b371829370de7a26f0eaf652b",
+  "results/qiskit_check.json": "1fa9a7f692a2fe4e3f871127df5af7a83bbbc4f9ca82e91601eb6ef22cc9c264",
+  "results/results.json": "e244ce11dafd0ffb03402b9f6e1a9dda6c83f6af799ef4d625a5efbfc812ef6a",
+  "results/summary.csv": "59deb46b7c5f265a94f1250881e21536e8d7219adbf8abda87e15e2053f0d9cd",
+  "results/trials.csv": "64fa60a0ac56c7d8de7ac8f51aaf1da2d383ed682556f6cd84ef00d45bbe9567"
+}

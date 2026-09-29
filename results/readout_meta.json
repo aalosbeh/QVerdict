@@ -1,0 +1,20 @@
+{
+  "readout": [
+    0.0,
+    0.005,
+    0.01,
+    0.02,
+    0.04
+  ],
+  "reps": 200,
+  "gate_noise": "N1",
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 16
+  },
+  "elapsed_s": 273.485857291962
+}

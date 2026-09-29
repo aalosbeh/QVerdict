@@ -1,0 +1,315 @@
+{
+  "tau": 0.95,
+  "oracles": [
+    "Plugin-DFE",
+    "CP-TG",
+    "CP-DFE",
+    "QV-TG",
+    "QV-DFE",
+    "QV-ESC"
+  ],
+  "alpha": 0.05,
+  "budget": 8192,
+  "batch": 16,
+  "esc_fraction": 0.25,
+  "esc_warmup": 4,
+  "prior": 0.5,
+  "reps": 200,
+  "noise": {
+    "N0": {
+      "p1": 0.0,
+      "p2": 0.0,
+      "gamma": 0.0,
+      "lam": 0.0,
+      "readout": 0.0,
+      "name": "N0"
+    },
+    "N1": {
+      "p1": 0.001,
+      "p2": 0.01,
+      "gamma": 0.0,
+      "lam": 0.0,
+      "readout": 0.0,
+      "name": "N1"
+    },
+    "N2": {
+      "p1": 0.002,
+      "p2": 0.02,
+      "gamma": 0.005,
+      "lam": 0.005,
+      "readout": 0.0,
+      "name": "N2"
+    }
+  },
+  "mutant_caps": {
+    "QGD": 30,
+    "QGI": 40,
+    "QGR": 30,
+    "RGI": 30
+  },
+  "subjects": [
+    {
+      "name": "Bell",
+      "family": "entangled state",
+      "contract": "state",
+      "n": 2,
+      "observed": 2,
+      "target": "stabilizer",
+      "settings": [
+        "ZZ",
+        "XX"
+      ],
+      "gates": 2,
+      "twoq": 1,
+      "depth": 2,
+      "variants": 82,
+      "description": "Bell pair |Phi+>",
+      "mutants_by_op": {
+        "QGD": 2,
+        "QGI": 40,
+        "QGR": 9,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "GHZ-4",
+      "family": "entangled state",
+      "contract": "state",
+      "n": 4,
+      "observed": 4,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZ",
+        "XXXX"
+      ],
+      "gates": 4,
+      "twoq": 3,
+      "depth": 4,
+      "variants": 90,
+      "description": "4-qubit GHZ state (CNOT chain)",
+      "mutants_by_op": {
+        "QGD": 4,
+        "QGI": 40,
+        "QGR": 15,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "GHZ-8",
+      "family": "entangled state",
+      "contract": "state",
+      "n": 8,
+      "observed": 8,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZZZZZ",
+        "XXXXXXXX"
+      ],
+      "gates": 8,
+      "twoq": 7,
+      "depth": 8,
+      "variants": 106,
+      "description": "8-qubit GHZ state (CNOT chain)",
+      "mutants_by_op": {
+        "QGD": 8,
+        "QGI": 40,
+        "QGR": 27,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "Cluster-6",
+      "family": "graph state",
+      "contract": "state",
+      "n": 6,
+      "observed": 6,
+      "target": "stabilizer",
+      "settings": [
+        "XZXZXZ",
+        "ZXZXZX"
+      ],
+      "gates": 11,
+      "twoq": 5,
+      "depth": 6,
+      "variants": 112,
+      "description": "6-qubit linear cluster state",
+      "mutants_by_op": {
+        "QGD": 11,
+        "QGI": 40,
+        "QGR": 30,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "Ring-5",
+      "family": "graph state",
+      "contract": "state",
+      "n": 5,
+      "observed": 5,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZX",
+        "XZXZZ",
+        "ZXZXZ"
+      ],
+      "gates": 10,
+      "twoq": 5,
+      "depth": 6,
+      "variants": 111,
+      "description": "5-qubit ring graph state (odd ring: three settings)",
+      "mutants_by_op": {
+        "QGD": 10,
+        "QGI": 40,
+        "QGR": 30,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "Steane-7",
+      "family": "QEC encoder",
+      "contract": "state",
+      "n": 7,
+      "observed": 7,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZZZZ",
+        "XXXXXXX"
+      ],
+      "gates": 12,
+      "twoq": 9,
+      "depth": 6,
+      "variants": 113,
+      "description": "Steane code logical |0_L> encoder",
+      "mutants_by_op": {
+        "QGD": 12,
+        "QGI": 40,
+        "QGR": 30,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "BV-5",
+      "family": "oracle algorithm",
+      "contract": "state",
+      "n": 6,
+      "observed": 5,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZZ"
+      ],
+      "gates": 15,
+      "twoq": 3,
+      "depth": 6,
+      "variants": 116,
+      "description": "Bernstein-Vazirani, secret 10110 (basis-state target)",
+      "mutants_by_op": {
+        "QGD": 15,
+        "QGI": 40,
+        "QGR": 30,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "QFT-4",
+      "family": "arithmetic (non-Clifford)",
+      "contract": "state",
+      "n": 4,
+      "observed": 4,
+      "target": "product",
+      "settings": [
+        "UUUU"
+      ],
+      "gates": 19,
+      "twoq": 12,
+      "depth": 11,
+      "variants": 120,
+      "description": "QFT of basis input |11> (product target, controlled phases)",
+      "mutants_by_op": {
+        "QGD": 19,
+        "QGI": 40,
+        "QGR": 30,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "Teleport",
+      "family": "channel",
+      "contract": "process",
+      "n": 4,
+      "observed": 2,
+      "target": "stabilizer",
+      "settings": [
+        "ZZ",
+        "XX"
+      ],
+      "gates": 6,
+      "twoq": 4,
+      "depth": 5,
+      "variants": 101,
+      "description": "Teleportation channel q0 -> q2 (deferred measurement)",
+      "mutants_by_op": {
+        "QGD": 6,
+        "QGI": 40,
+        "QGR": 24,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "SWAP-3CX",
+      "family": "channel",
+      "contract": "process",
+      "n": 4,
+      "observed": 4,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZ",
+        "XXXX"
+      ],
+      "gates": 3,
+      "twoq": 3,
+      "depth": 5,
+      "variants": 83,
+      "description": "Two-qubit SWAP compiled to three CNOTs",
+      "mutants_by_op": {
+        "QGD": 3,
+        "QGI": 40,
+        "QGR": 9,
+        "RGI": 30
+      }
+    },
+    {
+      "name": "Rep3-Enc",
+      "family": "QEC encoder",
+      "contract": "process",
+      "n": 4,
+      "observed": 4,
+      "target": "stabilizer",
+      "settings": [
+        "ZZZZ",
+        "XXXX"
+      ],
+      "gates": 2,
+      "twoq": 2,
+      "depth": 4,
+      "variants": 79,
+      "description": "Three-qubit repetition-code encoder (isometry)",
+      "mutants_by_op": {
+        "QGD": 2,
+        "QGI": 40,
+        "QGR": 6,
+        "RGI": 30
+      }
+    }
+  ],
+  "n_cases": 3339,
+  "n_oracle_rows": 20034,
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 16
+  },
+  "elapsed_s": 28.709218041971326
+}

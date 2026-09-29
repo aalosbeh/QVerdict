@@ -1,0 +1,23 @@
+....................................................................     [100%]
+68 passed in 8.88s
+3339 cases, 39708 oracle rows in 49.1s
+3339 cases, 20034 oracle rows in 28.8s
+3339 cases, 20034 oracle rows in 28.7s
+1652 rows in 24.0s
+budget rows 23870, scaling rows 90 in 209.3s
+44520 rows in 273.5s
+121 density matrices compared; max |difference| = 2.442e-15
+8700 rows in 66.2s
+wrote fig_identifiability
+wrote fig_observability
+wrote fig_boundary
+wrote fig_cost
+wrote fig_scaling
+wrote fig_robustness
+wrote tab_subjects.tex
+wrote tab_main.tex
+wrote tab_observability.tex
+wrote tab_mutation.tex
+wrote tab_tau.tex
+wrote tab_device.tex
+wrote numbers.tex

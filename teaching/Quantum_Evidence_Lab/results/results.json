@@ -1,0 +1,234 @@
+{
+  "data_type": "synthetic measurement samples from specified density matrices; no human participants or QPU runs",
+  "seed": 20260924,
+  "repetitions_per_case": 400,
+  "cases": 17,
+  "alpha_per_case_run": 0.05,
+  "fidelity_threshold": 0.9,
+  "budgets": [
+    96,
+    384,
+    1536
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "self_check": "Analytic Bell fixtures and 200 random density matrices passed.",
+  "elapsed_seconds": 0.723,
+  "experiment_sha256": "da1ec2fe68179404b19ee196f1df7f155c68c68baf0a6764d06f5d990c1f8f1e",
+  "overall": {
+    "z_only_teaching_negative_control": {
+      "n": 6800,
+      "wrong_decisions": 2597,
+      "inconclusive": 0,
+      "mean_shots": 1536.0
+    },
+    "fixed_XX_ZZ": {
+      "n": 6800,
+      "wrong_decisions": 7,
+      "inconclusive": 2405,
+      "mean_shots": 1536.0
+    },
+    "staged_XX_ZZ": {
+      "n": 6800,
+      "wrong_decisions": 5,
+      "inconclusive": 2571,
+      "mean_shots": 800.6682352941176
+    },
+    "fixed_XX_YY_ZZ": {
+      "n": 6800,
+      "wrong_decisions": 0,
+      "inconclusive": 2215,
+      "mean_shots": 1536.0
+    }
+  },
+  "catalog": [
+    {
+      "case": "target",
+      "kind": "reference",
+      "fidelity": 0.9999999999999996,
+      "meets_contract": true,
+      "q": {
+        "XX": 1.1102230246251565e-16,
+        "YY": 1.1102230246251565e-16,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "global_phase",
+      "kind": "equivalent control",
+      "fidelity": 1.0,
+      "meets_contract": true,
+      "q": {
+        "XX": 0.0,
+        "YY": 0.0,
+        "ZZ": 0.0
+      }
+    },
+    {
+      "case": "phase_flip",
+      "kind": "semantic mismatch",
+      "fidelity": 0.0,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.9999999999999999,
+        "YY": 0.9999999999999999,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "bit_flip",
+      "kind": "semantic mismatch",
+      "fidelity": 0.0,
+      "meets_contract": false,
+      "q": {
+        "XX": 1.1102230246251565e-16,
+        "YY": 0.9999999999999999,
+        "ZZ": 0.9999999999999999
+      }
+    },
+    {
+      "case": "missing_entangler",
+      "kind": "semantic mismatch",
+      "fidelity": 0.2499999999999999,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.5,
+        "YY": 0.5,
+        "ZZ": 0.5
+      }
+    },
+    {
+      "case": "zero_state",
+      "kind": "semantic mismatch",
+      "fidelity": 0.4999999999999999,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.5,
+        "YY": 0.5,
+        "ZZ": 0.0
+      }
+    },
+    {
+      "case": "plus_plus",
+      "kind": "semantic mismatch",
+      "fidelity": 0.4999999999999999,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.0,
+        "YY": 0.5,
+        "ZZ": 0.5
+      }
+    },
+    {
+      "case": "dephased",
+      "kind": "incoherent mixture",
+      "fidelity": 0.4999999999999999,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.5,
+        "YY": 0.5,
+        "ZZ": 0.0
+      }
+    },
+    {
+      "case": "phase_rotation_0_6",
+      "kind": "near threshold",
+      "fidelity": 0.9126678074548388,
+      "meets_contract": true,
+      "q": {
+        "XX": 0.08733219254516095,
+        "YY": 0.08733219254516095,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "phase_rotation_0_7",
+      "kind": "near threshold",
+      "fidelity": 0.8824210936422439,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.11757890635775581,
+        "YY": 0.11757890635775581,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "phase_mixture_0.03",
+      "kind": "known phase mixture",
+      "fidelity": 0.9699999999999995,
+      "meets_contract": true,
+      "q": {
+        "XX": 0.030000000000000138,
+        "YY": 0.030000000000000138,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "phase_mixture_0.08",
+      "kind": "known phase mixture",
+      "fidelity": 0.9199999999999996,
+      "meets_contract": true,
+      "q": {
+        "XX": 0.08000000000000007,
+        "YY": 0.08000000000000007,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "phase_mixture_0.10",
+      "kind": "known phase mixture",
+      "fidelity": 0.8999999999999996,
+      "meets_contract": true,
+      "q": {
+        "XX": 0.10000000000000009,
+        "YY": 0.10000000000000009,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "phase_mixture_0.12",
+      "kind": "known phase mixture",
+      "fidelity": 0.8799999999999996,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.1200000000000001,
+        "YY": 0.1200000000000001,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "phase_mixture_0.20",
+      "kind": "known phase mixture",
+      "fidelity": 0.7999999999999996,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.20000000000000007,
+        "YY": 0.20000000000000007,
+        "ZZ": 1.1102230246251565e-16
+      }
+    },
+    {
+      "case": "depolarized_0.08",
+      "kind": "known depolarizing mixture",
+      "fidelity": 0.9399999999999996,
+      "meets_contract": true,
+      "q": {
+        "XX": 0.04000000000000009,
+        "YY": 0.04000000000000009,
+        "ZZ": 0.04000000000000009
+      }
+    },
+    {
+      "case": "depolarized_0.20",
+      "kind": "known depolarizing mixture",
+      "fidelity": 0.8499999999999996,
+      "meets_contract": false,
+      "q": {
+        "XX": 0.10000000000000009,
+        "YY": 0.10000000000000009,
+        "ZZ": 0.10000000000000009
+      }
+    }
+  ]
+}

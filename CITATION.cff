@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use QVerdict, please cite the accompanying article."
+title: "QVerdict: sound, anytime-valid test oracles for quantum programs"
+version: 1.0.0
+date-released: 2026-09-26
+license: MIT
+authors:
+  - family-names: AlSobeh
+    given-names: Anas
+    affiliation: "Utah Valley University"
+repository-code: "https://github.com/<account>/QVerdict"
+preferred-citation:
+  type: article
+  title: "Pass, Fail, or Not Yet: Sound and Anytime-Valid Test Oracles for Quantum Programs"
+  authors:
+    - family-names: AlSobeh
+      given-names: Anas
+  status: submitted

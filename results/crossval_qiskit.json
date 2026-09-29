@@ -1,0 +1,751 @@
+{
+  "noise": {
+    "p1": 0.002,
+    "p2": 0.02,
+    "gamma": 0.005,
+    "lam": 0.005,
+    "readout": 0.0,
+    "name": "N2"
+  },
+  "comparisons": 121,
+  "max_abs_diff": 2.4424908290175028e-15,
+  "qiskit": "2.5.2",
+  "qiskit_aer": "0.17.2",
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 16
+  },
+  "elapsed_s": 1.5260564999771304,
+  "rows": [
+    {
+      "subject": "Bell",
+      "variant": 0,
+      "n": 2,
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 1,
+      "n": 2,
+      "max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 2,
+      "n": 2,
+      "max_abs_diff": 3.3306690738754696e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 3,
+      "n": 2,
+      "max_abs_diff": 4.996003610813204e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 4,
+      "n": 2,
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 5,
+      "n": 2,
+      "max_abs_diff": 5.551115123125783e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 6,
+      "n": 2,
+      "max_abs_diff": 7.771561172376096e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 7,
+      "n": 2,
+      "max_abs_diff": 1.1102230246251565e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 8,
+      "n": 2,
+      "max_abs_diff": 4.440892098500626e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 9,
+      "n": 2,
+      "max_abs_diff": 5.551115123125783e-16
+    },
+    {
+      "subject": "Bell",
+      "variant": 10,
+      "n": 2,
+      "max_abs_diff": 6.106226635438361e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 0,
+      "n": 4,
+      "max_abs_diff": 7.771561172376096e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 1,
+      "n": 4,
+      "max_abs_diff": 7.216449660063518e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 2,
+      "n": 4,
+      "max_abs_diff": 5.551115123125783e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 3,
+      "n": 4,
+      "max_abs_diff": 7.216449660063518e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 4,
+      "n": 4,
+      "max_abs_diff": 4.718447854656915e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 5,
+      "n": 4,
+      "max_abs_diff": 7.216449660063518e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 6,
+      "n": 4,
+      "max_abs_diff": 6.661338147750939e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 7,
+      "n": 4,
+      "max_abs_diff": 7.216449660063518e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 8,
+      "n": 4,
+      "max_abs_diff": 9.99291297262516e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 9,
+      "n": 4,
+      "max_abs_diff": 8.882803165223144e-16
+    },
+    {
+      "subject": "GHZ-4",
+      "variant": 10,
+      "n": 4,
+      "max_abs_diff": 7.216449660086808e-16
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 0,
+      "n": 8,
+      "max_abs_diff": 1.6653345369377348e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 1,
+      "n": 8,
+      "max_abs_diff": 1.3877787807814457e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 2,
+      "n": 8,
+      "max_abs_diff": 1.3322676295501878e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 3,
+      "n": 8,
+      "max_abs_diff": 1.6653345369377348e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 4,
+      "n": 8,
+      "max_abs_diff": 1.4432899320127035e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 5,
+      "n": 8,
+      "max_abs_diff": 1.4988010832439613e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 6,
+      "n": 8,
+      "max_abs_diff": 1.2212453270876722e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 7,
+      "n": 8,
+      "max_abs_diff": 1.3322676295501878e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 8,
+      "n": 8,
+      "max_abs_diff": 1.3322676295501878e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 9,
+      "n": 8,
+      "max_abs_diff": 1.3877787807814457e-15
+    },
+    {
+      "subject": "GHZ-8",
+      "variant": 10,
+      "n": 8,
+      "max_abs_diff": 1.6653345369377348e-15
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 0,
+      "n": 6,
+      "max_abs_diff": 1.0061396160665481e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 1,
+      "n": 6,
+      "max_abs_diff": 1.3877787807814457e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 2,
+      "n": 6,
+      "max_abs_diff": 1.942890293094024e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 3,
+      "n": 6,
+      "max_abs_diff": 1.0061396160665481e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 4,
+      "n": 6,
+      "max_abs_diff": 9.367506770274758e-17
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 5,
+      "n": 6,
+      "max_abs_diff": 1.0408340855860843e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 6,
+      "n": 6,
+      "max_abs_diff": 8.673617379884035e-17
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 7,
+      "n": 6,
+      "max_abs_diff": 9.71445146547012e-17
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 8,
+      "n": 6,
+      "max_abs_diff": 1.0061427823829414e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 9,
+      "n": 6,
+      "max_abs_diff": 1.0061398948525134e-16
+    },
+    {
+      "subject": "Cluster-6",
+      "variant": 10,
+      "n": 6,
+      "max_abs_diff": 9.367506801095946e-17
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 0,
+      "n": 5,
+      "max_abs_diff": 1.3877787807814457e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 1,
+      "n": 5,
+      "max_abs_diff": 1.3530843112619095e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 2,
+      "n": 5,
+      "max_abs_diff": 2.498001805406602e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 3,
+      "n": 5,
+      "max_abs_diff": 1.457167719820518e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 4,
+      "n": 5,
+      "max_abs_diff": 1.3877787807814457e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 5,
+      "n": 5,
+      "max_abs_diff": 1.4224732503009818e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 6,
+      "n": 5,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 7,
+      "n": 5,
+      "max_abs_diff": 2.3592239273284576e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 8,
+      "n": 5,
+      "max_abs_diff": 1.4224799275493298e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 9,
+      "n": 5,
+      "max_abs_diff": 1.457167719820518e-16
+    },
+    {
+      "subject": "Ring-5",
+      "variant": 10,
+      "n": 5,
+      "max_abs_diff": 1.5959455980648321e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 0,
+      "n": 7,
+      "max_abs_diff": 4.718447854656915e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 1,
+      "n": 7,
+      "max_abs_diff": 4.996003610813204e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 2,
+      "n": 7,
+      "max_abs_diff": 4.718447854656915e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 3,
+      "n": 7,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 4,
+      "n": 7,
+      "max_abs_diff": 5.134781488891349e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 5,
+      "n": 7,
+      "max_abs_diff": 5.828670879282072e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 6,
+      "n": 7,
+      "max_abs_diff": 5.273559366969494e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 7,
+      "n": 7,
+      "max_abs_diff": 9.159339953157541e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 8,
+      "n": 7,
+      "max_abs_diff": 4.718447854656915e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 9,
+      "n": 7,
+      "max_abs_diff": 5.134781488891349e-16
+    },
+    {
+      "subject": "Steane-7",
+      "variant": 10,
+      "n": 7,
+      "max_abs_diff": 4.579669976578771e-16
+    },
+    {
+      "subject": "BV-5",
+      "variant": 0,
+      "n": 6,
+      "max_abs_diff": 2.442490657900725e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 1,
+      "n": 6,
+      "max_abs_diff": 2.1649349024600313e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 2,
+      "n": 6,
+      "max_abs_diff": 1.1657341758564144e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 3,
+      "n": 6,
+      "max_abs_diff": 2.275957204432015e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 4,
+      "n": 6,
+      "max_abs_diff": 2.3314683517128287e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 5,
+      "n": 6,
+      "max_abs_diff": 1.249275377545514e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 6,
+      "n": 6,
+      "max_abs_diff": 1.1657341758564144e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 7,
+      "n": 6,
+      "max_abs_diff": 1.1657341778301025e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 8,
+      "n": 6,
+      "max_abs_diff": 2.4424908290175028e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 9,
+      "n": 6,
+      "max_abs_diff": 2.3869798841501373e-15
+    },
+    {
+      "subject": "BV-5",
+      "variant": 10,
+      "n": 6,
+      "max_abs_diff": 2.3869799373331752e-15
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 0,
+      "n": 4,
+      "max_abs_diff": 3.803754554017531e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 1,
+      "n": 4,
+      "max_abs_diff": 3.569485997778505e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 2,
+      "n": 4,
+      "max_abs_diff": 6.91282407884855e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 3,
+      "n": 4,
+      "max_abs_diff": 3.706020620890457e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 4,
+      "n": 4,
+      "max_abs_diff": 3.936255378223739e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 5,
+      "n": 4,
+      "max_abs_diff": 3.9770214568543847e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 6,
+      "n": 4,
+      "max_abs_diff": 3.6782683234533517e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 7,
+      "n": 4,
+      "max_abs_diff": 3.651994641956859e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 8,
+      "n": 4,
+      "max_abs_diff": 3.7084152287924966e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 9,
+      "n": 4,
+      "max_abs_diff": 5.17075646815394e-16
+    },
+    {
+      "subject": "QFT-4",
+      "variant": 10,
+      "n": 4,
+      "max_abs_diff": 3.8857805944036566e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 0,
+      "n": 4,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 1,
+      "n": 4,
+      "max_abs_diff": 2.636779683484747e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 2,
+      "n": 4,
+      "max_abs_diff": 2.498001805406602e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 3,
+      "n": 4,
+      "max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 4,
+      "n": 4,
+      "max_abs_diff": 3.191891195797325e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 5,
+      "n": 4,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 6,
+      "n": 4,
+      "max_abs_diff": 3.469446951953614e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 7,
+      "n": 4,
+      "max_abs_diff": 5.00299906283032e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 8,
+      "n": 4,
+      "max_abs_diff": 2.7778562531471046e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 9,
+      "n": 4,
+      "max_abs_diff": 3.6082248341200215e-16
+    },
+    {
+      "subject": "Teleport",
+      "variant": 10,
+      "n": 4,
+      "max_abs_diff": 2.7755575615628914e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 0,
+      "n": 4,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 1,
+      "n": 4,
+      "max_abs_diff": 1.6653345369377348e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 2,
+      "n": 4,
+      "max_abs_diff": 1.6653345369377348e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 3,
+      "n": 4,
+      "max_abs_diff": 3.608224830031759e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 4,
+      "n": 4,
+      "max_abs_diff": 2.7755575615628914e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 5,
+      "n": 4,
+      "max_abs_diff": 2.7755575615628914e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 6,
+      "n": 4,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 7,
+      "n": 4,
+      "max_abs_diff": 3.0531133177191805e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 8,
+      "n": 4,
+      "max_abs_diff": 3.775166431889533e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 9,
+      "n": 4,
+      "max_abs_diff": 3.1031676915590914e-16
+    },
+    {
+      "subject": "SWAP-3CX",
+      "variant": 10,
+      "n": 4,
+      "max_abs_diff": 3.510833468576701e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 0,
+      "n": 4,
+      "max_abs_diff": 4.996003610813204e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 1,
+      "n": 4,
+      "max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 2,
+      "n": 4,
+      "max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 3,
+      "n": 4,
+      "max_abs_diff": 5.551115123125783e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 4,
+      "n": 4,
+      "max_abs_diff": 6.106226635438361e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 5,
+      "n": 4,
+      "max_abs_diff": 5.551115123125783e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 6,
+      "n": 4,
+      "max_abs_diff": 3.885780586188048e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 7,
+      "n": 4,
+      "max_abs_diff": 2.7755575615628914e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 8,
+      "n": 4,
+      "max_abs_diff": 6.106226635438361e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 9,
+      "n": 4,
+      "max_abs_diff": 3.3306690738754696e-16
+    },
+    {
+      "subject": "Rep3-Enc",
+      "variant": 10,
+      "n": 4,
+      "max_abs_diff": 5.551115123125783e-16
+    }
+  ]
+}

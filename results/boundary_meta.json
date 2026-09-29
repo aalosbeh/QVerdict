@@ -1,0 +1,36 @@
+{
+  "F_grid": [
+    0.8,
+    0.84,
+    0.86,
+    0.88,
+    0.89,
+    0.895,
+    0.9,
+    0.905,
+    0.91,
+    0.92,
+    0.94,
+    0.96,
+    0.98,
+    1.0
+  ],
+  "subjects": [
+    "Bell",
+    "GHZ-4",
+    "Cluster-6",
+    "Steane-7",
+    "QFT-4"
+  ],
+  "reps": 2000,
+  "tau": 0.9,
+  "environment": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "cpu_count": 16
+  },
+  "elapsed_s": 24.019072583992966
+}
